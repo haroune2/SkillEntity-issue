@@ -21,9 +21,10 @@ L'objectif de ce projet est de démontrer comment utiliser la relation ManyToMan
    git clone   https://github.com/haroune2/SkillEntity-issue
 
 2 .Configuration de la Base de Données
+
       Assurez-vous d'ajouter les détails de votre base de données dans le fichier `src/main/resources/application.properties` avant de lancer l'application.
 
-2.  Exécuter l'application Spring Boot.
+3.  Exécuter l'application Spring Boot.
     ```bash
     ./mvnw spring-boot:run
 
