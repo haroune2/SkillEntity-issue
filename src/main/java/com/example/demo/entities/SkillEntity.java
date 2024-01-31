@@ -23,16 +23,15 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-
 @Entity
 public class SkillEntity {
     @Id
     @GeneratedValue
     private int Skill_id;
 
-    private String  name;
+    private String name;
 
     @ManyToMany(mappedBy = "skills")
     private Set<ProjectEntity> assignedProjects = new HashSet<>();
- 
+
 }
