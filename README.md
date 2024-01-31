@@ -18,11 +18,15 @@ L'objectif de ce projet est de démontrer comment utiliser la relation ManyToMan
 
 1. Cloner le projet localement.
    ```bash
-   git clone https://github.com/votre-utilisateur/votre-projet.git
+   git clone   https://github.com/haroune2/SkillEntity-issue
+
+2 .Configuration de la Base de Données
+      Assurez-vous d'ajouter les détails de votre base de données dans le fichier `src/main/resources/application.properties` avant de lancer l'application.
 
 2.  Exécuter l'application Spring Boot.
     ```bash
     ./mvnw spring-boot:run
+
 
 4.  Accéder à l'API pour récupérer des projets par compétence. Remplacez {skillsId} par l'ID de la compétence souhaitée.
    ```bash
